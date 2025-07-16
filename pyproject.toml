@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "selenography"
+description = """Convenient utilities for selenographic (geographic of the
+Moon) spatial operations such as projection and co-registration."""
+authors = [
+    {name = "Zachary M. Vig", email = "zvig@umd.edu"}
+]
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy",
+    "rasterio",
+    "opencv-python",
+    "pyproj"
+]
+
+[tools.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

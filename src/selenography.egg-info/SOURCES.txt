@@ -1,0 +1,8 @@
+pyproject.toml
+src/selenography/__init__.py
+src/selenography/project_to_GCSMoon2000.py
+src/selenography.egg-info/PKG-INFO
+src/selenography.egg-info/SOURCES.txt
+src/selenography.egg-info/dependency_links.txt
+src/selenography.egg-info/requires.txt
+src/selenography.egg-info/top_level.txt
