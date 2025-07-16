@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: selenography
+Version: 0.0.1
+Summary: Convenient utilities for selenographic (geographic of the
+Author-email: "Zachary M. Vig" <zvig@umd.edu>
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: rasterio
